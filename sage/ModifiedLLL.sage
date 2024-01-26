@@ -1,3 +1,10 @@
+(*
+  ModifiedLLL.sage
+
+  Created by Kazuki Kawamoto on 2023/12/17
+  Copyright (c) 2023 Kazuki Kawamoto
+ *)
+
 import numpy as np
 
 def sizeReduce(b,mu,i,j):
