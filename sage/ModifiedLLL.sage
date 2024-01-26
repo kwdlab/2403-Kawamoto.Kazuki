@@ -1,9 +1,8 @@
-(*
-  ModifiedLLL.sage
-
-  Created by Kazuki Kawamoto on 2023/12/17
-  Copyright (c) 2023 Kazuki Kawamoto
- *)
+"""
+Copyright (c) 2024 Kazuki Kawamoto
+Released under the MIT License
+https://github.com/kwdlab/2403-Kazuki.Kawamoto/blob/kuwakado.hidenori/LICENSE
+"""
 
 import numpy as np
 
