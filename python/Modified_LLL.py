@@ -55,7 +55,6 @@ def MLLL(b,delta):
     while g <= z:
         if zero_judge(b[g]):
             if g < z:
-                #入れ替え1
                 b[g], b[z] = b[z], b[g]
             z -= 1
 
@@ -84,16 +83,13 @@ def MLLL(b,delta):
                 else:
                     if zero_judge(b[k]):
                         if k < z:
-                            #入れ替え2
                             b[k], b[z] = b[z], b[k]
                         z -= 1
                         g = k
                         startagain = True
                     else:
-                        #入れ替え3
                         b[k-1], b[k] = b[k], b[k-1]
                         for j in range(k-1):
-                            #入れ替え4
                             mu[k][j], mu[k-1][j] = mu[k-1][j], mu[k][j]
                         if B != 0:
                             if Bi[k] == 0:
@@ -117,12 +113,9 @@ def MLLL(b,delta):
                                     mu[i][k] = mu[i][k-1] - nu * t
                                     mu[i][k-1] = t + mu[k][k-1] * mu[i][k]
                         else:
-                            #入れ替え5
                             Bi[k], Bi[k-1] = Bi[k-1], Bi[k]
-                            #入れ替え6
                             b_gso[k], b_gso[k-1] = b_gso[k-1], b_gso[k]
                             for i in range(k+1, l+1):
-                                #入れ替え7
                                 mu[i][k], mu[i][k-1] = mu[i][k-1], mu[i][k]
                         k = max(k-1,1)
             if not startagain:
