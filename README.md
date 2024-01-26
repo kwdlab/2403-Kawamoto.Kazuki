@@ -2,9 +2,10 @@
 This is an implementation of a modified LLL algorithm in `SageMath` and `Python` and a random sampling algorithm in `SageMath`.
 
 ## Description
-- Modified_LLL is an modification of the LLL reduction program, which can take a linearly dependent vector as input. 
+- ModifiedLLL is an modification of the LLL reduction program, which can take a linearly dependent vector as input. 
 
 - RandomSampling is a program that uniformly randomly sample the lattice vectors until the norm is shorter than the standard value.
+  
 
 ## Requirement
 - SageMath version 9.5
@@ -12,14 +13,14 @@ This is an implementation of a modified LLL algorithm in `SageMath` and `Python`
 
 ## Install
 ```sh
-$ git clone https://github.com/kwdlab/minoda.shu.git
+$ git clone https://github.com/kwdlab/2403-Kawamoto.Kazuki.git
 ```
 ## Author
 - [Kazuki Kawamoto](https://github.com/Kazu711)
   
-# License
+## License
 [MIT](https://opensource.org/license/mit/)
 
-# References
+## References
 - [SageMath](https://www.sagemath.org./)
 - [Python](https://www.python.org/)
