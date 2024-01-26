@@ -14,13 +14,11 @@ def SA(b,n,mu,Bi,u,gamma):
         for i in range(n-2, -1, -1):
             sigma[i] = mu[n-1,i]
             for h in range(i+1,n-1):
-                assert i+1 <= h <= n-2
                 sigma[i] += v[h] * mu[h][i]
 
             if i < (n-1-u):
                 v[i] = -1 * round(sigma[i])
             else:
-                assert i >= n-1-u
                 v[i] = random.randint(int(-1-sigma[i]),int(1-sigma[i]))
             sigma[i] += v[i]
             rho[i] = rho[i+1] + sigma[i]*sigma[i]*Bi[i]
