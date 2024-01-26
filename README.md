@@ -8,3 +8,18 @@ This is an implementation of a modified LLL algorithm in `SageMath` and `Python`
 
 ## Requirement
 - SageMath version 9.5
+- Python version 3.10.12
+
+## Install
+```sh
+$ git clone https://github.com/kwdlab/minoda.shu.git
+```
+## Author
+- [Kazuki Kawamoto](https://github.com/Kazu711)
+  
+# License
+[MIT](https://opensource.org/license/mit/)
+
+# References
+- [SageMath](https://www.sagemath.org./)
+- [Python](https://www.python.org/)
