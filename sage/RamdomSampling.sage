@@ -1,3 +1,9 @@
+"""
+Copyright (c) 2024 Kazuki Kawamoto
+Released under the MIT License
+https://github.com/kwdlab/2403-Kazuki.Kawamoto/blob/kuwakado.hidenori/LICENSE
+"""
+
 from sage.modules.misc import gram_schmidt
 import random
 import numpy as np
