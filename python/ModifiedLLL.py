@@ -1,3 +1,9 @@
+"""
+Copyright (c) 2024 Kazuki Kawamoto
+Released under the MIT License
+https://github.com/kwdlab/2403-Kazuki.Kawamoto/blob/kuwakado.hidenori/LICENSE
+"""
+
 from decimal import *
 
 def zero_judge(x):
