@@ -2,6 +2,7 @@
 Copyright (c) 2024 Kazuki Kawamoto
 Released under the MIT License
 https://github.com/kwdlab/2403-Kazuki.Kawamoto/blob/kuwakado.hidenori/LICENSE
+参考文献：　青野良範, 安田雅哉(2019). 格子暗号解読のための数学的基礎. 近代科学社.
 """
 
 from sage.modules.misc import gram_schmidt
